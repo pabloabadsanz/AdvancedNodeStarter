@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starting project for a course on Advanced Node @ Udemy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -29,5 +29,14 @@
     "puppeteer": "^1.0.0",
     "redis": "^2.8.0",
     "uuid": "^3.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloabadsanz/AdvancedNodeStarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pabloabadsanz/AdvancedNodeStarter/issues"
+  },
+  "homepage": "https://github.com/pabloabadsanz/AdvancedNodeStarter#readme"
 }
