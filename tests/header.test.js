@@ -10,6 +10,10 @@ beforeEach(async () => {
   await page.goto('localhost:3000');
 });
 
+afterEach(async () => {
+  await browser.close();
+});
+
 test('Adds two numbers', () => {
   const sum = 1 + 2;
 
